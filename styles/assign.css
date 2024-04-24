@@ -345,29 +345,47 @@
 }
 
 .choose-1 .card-1 h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
     margin-top: 30px;
     padding-left: 40px;
 
 }
 .choose-1 .card-1 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
     padding-top: 15px;
     padding-left: 40px;
     line-height: 26px;
 }
 .choose-1 .card-2 h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
     margin-top: 30px;
     padding-left: 40px;
 }
 .choose-1 .card-2 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
     padding-top: 15px;
     padding-left: 40px;
     line-height: 26px;
 }
 .choose-2 .card-3 h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
     margin-top: 30px;
     padding-left: 40px;
 }
 .choose-2 .card-3 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
     padding-top: 15px;
     padding-left: 40px;
     line-height: 26px;
@@ -491,6 +509,7 @@ footer .logo h3{
 footer p{
     font-size: 1rem;
     font-weight: 400;
+    color: #5A5A5D;
     text-align: center;
     padding-top: 30px;
 
@@ -502,7 +521,268 @@ footer p{
 }
 
 h5{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #131318;
     text-align: center;
     padding-top: 80px;
     padding-bottom: 30px;
+}
+
+
+/* media quarey for mobile   navbar section*/
+@media screen and (max-width:600px) {
+    .navbar{
+        width: 495px;  
+        padding: 10px 10px 10px 80px;   
+    }
+    .checkbtn{
+        display: block;
+    }
+    .navbar .logo h3{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    
+    .navbar .links{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 75px;
+        
+        right: -100%;
+        text-align: center;
+        transition: 0.4s ease;
+    }
+    .navbar .links a{
+        display: block;
+        
+        line-height: 20px;
+    }
+    #check:checked~ .links{
+        left: 0;
+    }
+
+    /*banner section*/
+
+    .banner-content{
+        width: 400px;
+    
+        margin-left: 95px;
+        
+        margin-right: 10px;
+        
+        
+    }
+    .type{
+        display: flex;
+        flex-direction: column;
+        padding: 16px 35px 16px 16px;
+        width: 280px;
+        margin-top: 20px;
+        gap: 16px;
+        margin-left: 80px;
+        
+    }
+    .type-1{
+        width: 174px;
+        height: 48px;
+        
+    }
+    .banner-title{
+        font-size: 1.4rem;
+        padding-left: 65px;
+        padding-top: 30px;
+    }
+    .banner-description{
+        font-size: 14px;
+        padding-right: 20px;
+        
+    }
+    .btn-primary{
+        width: 174px;
+        height: 48px;
+    }
+    /*popular section*/
+    .popular{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 90px;
+        margin-top: 40px;
+        
+        
+        
+    }
+    .popular-img img{
+        width: 435px;
+        
+        
+        
+    }
+    .btn-primary2{
+        margin-top: 30px;
+    }
+    /*destination section*/
+    .destination{
+        margin-left: 90px;
+    }
+    
+    .row-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    #row-heading{
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    .row-card img{
+        width: 435px;
+        height: 186px;
+
+    }
+    .row-text{
+        padding-left: 120px;
+    }
+    .row-text1{
+        padding-left: 100px;
+    }
+    .row-text2{
+        padding-left: 120px;
+    }
+    .row-text3{
+        padding-left: 110px;
+    }
+    
+    
+    #choose-3 {
+        margin-left:100px;
+    
+    }
+    #choose-4 {
+        margin-left: 80px;
+    }
+    .choose-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 60px;
+        margin-right: 90px
+    }
+    
+    .choose-2{
+        margin-left: 60px;
+        margin-right: 90px;
+         
+    }
+    .choose-1 h3{
+    font-size: 1.2rem;
+    padding-right: 400px;
+    font-weight: 800;
+        
+        
+    }
+    .choose-1 img{
+        width: 48px;
+        height: 48px;
+
+    }
+    .choose-1 p{
+        font-size: 14px;
+        font-weight: 400;
+    }   
+    
+    .choose-1 .card-1 h3{
+        font-size: 1.2rem;
+        font-weight: 800;
+        padding-right: 205px;
+    }
+    .choose-1 .card-1 p{
+        padding-right: 65px;
+    }
+    .choose-1 .card-2 h3{
+        font-size: 1.2rem;
+        font-weight: 800;
+        padding-right: 200px;
+    }
+    .choose-1 .card-2 p{
+        padding-right: 70px;
+    }
+    .choose-2 h3{
+        font-size: 1.2rem;
+        padding-right: 180px;
+        font-weight: 800;
+
+    }
+    .choose-2 p{
+        font-size: 14px;
+        font-weight: 400;
+        
+    }
+    /*letter section*/
+    .letter{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 60px;
+    }
+    .container img{
+        width: 474px;
+        margin-top: 25px;
+        
+    }
+    .inner{
+        transform: rotate(-19.628deg) translateX(270px) translateY(-30px);
+        width: 215px;
+        height: 80px;
+        border-radius: 10px;
+    }
+    .inner p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 15px;
+    }
+    .inner h4{
+        font-size: 21px;
+        font-weight: 800;
+    }
+    
+    
+    .btn-primary-3{
+        margin-top: 20px;
+    }
+    footer{
+        width: 600px;
+    } 
+    
+    footer .logo{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding-left: 180px;
+        padding-top: 70px;
+        
+    }
+    footer p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: #5A5A5D;
+        text-align: center;
+        padding-top: 30px;
+    
+    }
+    .social-media{
+        
+        padding-left: 200px;
+        
+        padding-top: 35px;
+    }
+    h5{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    
+    
 }
