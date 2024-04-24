@@ -13,3 +13,142 @@
   
 
 }
+.navbar{
+    display: flex;
+    padding: 22px 100px;
+    align-items: center;
+    width:  100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+    
+}
+.navbar .logo{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;
+    
+}
+.navbar .logo img{
+    width: 40px;
+    
+}
+.navbar .logo h3{
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.navbar .links{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.navbar .links a{
+    color: #424247;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.navbar .links a:hover{
+    color: #FF5400;
+}
+.navbar .links .active{
+    color: #FF5400;
+}
+#headline{
+    color: #FF5400;
+}
+.checkbtn{
+    color: #131318;
+    font-size: 25;
+    cursor: pointer;
+    display: flex;
+    display: none;
+}
+#check{
+    display: none;
+}
+    
+
+/*banner section*/
+
+.banner-content{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-color:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    border-radius: 16px;
+    max-width: 1170px;
+    height: 500px;
+    margin-left: 120px;
+    border-radius: 16px;
+    margin-top: 50px;
+    
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFF;
+    padding-left: 270px;
+    padding-top: 60px;
+    
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFF;
+    padding-top: 40px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.type{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 75px;
+    padding:14px;
+    padding-left: 35px;
+    
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50 );
+    background: rgba(255, 255, 255, 0.30);
+    align-items: center;
+    
+}
+#text-1{
+    padding-left: 15px;
+}
+#text-2{
+    padding-left: 15px;
+}
+#text-3{
+    padding-left: 15px;
+}
+.type-1{
+    border: none;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    margin-left: 15px;
+    color: rgba(19, 19, 24, 0.50 );
+    background-color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    
+    
+    
+}
+
+
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: none;
+    margin-left: 15px;
+}
