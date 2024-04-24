@@ -482,9 +482,6 @@
 /*footer section*/
 footer{
     background: rgba(19, 19, 24, 0.05);
-    
-    
-
 }
 
 footer .logo{
@@ -530,7 +527,7 @@ h5{
 }
 
 
-/* media quarey for mobile   navbar section*/
+/* media query for mobile   navbar section*/
 @media screen and (max-width:600px) {
     .navbar{
         width: 495px;  
@@ -549,7 +546,6 @@ h5{
         height: 100vh;
         position: fixed;
         top: 75px;
-        
         right: -100%;
         text-align: center;
         transition: 0.4s ease;
@@ -567,11 +563,8 @@ h5{
 
     .banner-content{
         width: 400px;
-    
         margin-left: 95px;
-        
         margin-right: 10px;
-        
         
     }
     .type{
@@ -610,13 +603,9 @@ h5{
         margin-left: 90px;
         margin-top: 40px;
         
-        
-        
     }
     .popular-img img{
-        width: 435px;
-        
-        
+        width: 435px; 
         
     }
     .btn-primary2{
@@ -679,8 +668,7 @@ h5{
     font-size: 1.2rem;
     padding-right: 400px;
     font-weight: 800;
-        
-        
+
     }
     .choose-1 img{
         width: 48px;
@@ -750,6 +738,7 @@ h5{
     .btn-primary-3{
         margin-top: 20px;
     }
+    /*footer section*/
     footer{
         width: 600px;
     } 
@@ -775,10 +764,11 @@ h5{
     .social-media{
         
         padding-left: 200px;
-        
         padding-top: 35px;
     }
     h5{
+        font-size: 14px;
+        font-weight: 300;
         text-align: center;
         padding-top: 30px;
     }
